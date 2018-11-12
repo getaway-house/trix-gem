@@ -59,3 +59,5 @@ module ActionView
     end
   end
 end
+
+ActionView::Base.send :include, TrixEditorHelper
